@@ -47,7 +47,17 @@ MSYS2 with `MSYS2_PATH_TYPE=inherit` to pick up the whole Windows PATH.)
 > releases (1.87 vs 1.97 at the time of writing) and targets `gnullvm`
 > instead of MSVC; dagcmp is developed and tested against rustup/MSVC.
 
-### 2. Compile
+### 2a. Install
+
+Install directly:
+
+```sh
+cargo install dagcmp
+```
+
+Or compile from scratch below.
+
+### 2b. Compile
 
 ```sh
 cd dagcmp
