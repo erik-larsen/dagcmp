@@ -1,8 +1,8 @@
 # dagcmp
 
 Fast, open-source directory tree compare & sync — in the spirit of
-[TreeComp](http://www.brobbel.net/treecomp/), at the speed of
-[WizTree](https://wiztreefree.com/). On local NTFS volumes it reads the
+[TreeComp](https://lploeger.home.xs4all.nl/TreeComp.htm), at the speed of
+[WizTree](https://diskanalyzer.com/). On local NTFS volumes it reads the
 volume's Master File Table directly (user-mode, no kernel driver) instead of
 traversing directories, and falls back to a standard walk on network shares,
 non-NTFS volumes, or unelevated runs. MIT licensed.
