@@ -1,0 +1,16 @@
+[package]
+name = "dagcmp"
+description = "Fast directory tree compare & sync (MFT-accelerated on Windows)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "dagcmp"
+path = "src/main.rs"
+
+[dependencies]
+dagcmp-core = { path = "../dagcmp-core", version = "0.1.0" }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"

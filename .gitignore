@@ -1,0 +1,4 @@
+/target
+Cargo.lock.orig
+*.pdb
+.claude/settings.local.json

@@ -1,0 +1,18 @@
+[package]
+name = "dagcmp-gui"
+description = "egui desktop app for dagcmp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "dagcmp-gui"
+path = "src/main.rs"
+
+[dependencies]
+chrono = "0.4.45"
+dagcmp-core = { path = "../dagcmp-core", version = "0.1.0" }
+eframe = "0.33"
+egui_extras = "0.33"
+rfd = "0.15"
