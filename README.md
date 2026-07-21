@@ -1,5 +1,8 @@
 # dagcmp
 
+![dagcmp GUI](docs/dagcmp.jpg)
+
+
 Fast, open-source directory tree compare & sync — in the spirit of
 [TreeComp](https://lploeger.home.xs4all.nl/TreeComp.htm), at the speed of
 [WizTree](https://diskanalyzer.com/). On local NTFS volumes it reads the
@@ -7,8 +10,10 @@ volume's Master File Table directly (user-mode, no kernel driver) instead of
 traversing directories, and falls back to a standard walk on network shares,
 non-NTFS volumes, or unelevated runs. MIT licensed.
 
-*(Why "dag"? A filesystem with hardlinks is a directed acyclic graph, and
-`cmp` is honest Unix lineage. Also, every good tree word was taken.)*
+*(Why "dagcmp"? Folder trees are directed acyclic graphs (DAG) and every
+good tree name was already taken.  CMP is short for compare, like `cmp`. Thus,
+`dagcmp` was chosen in the tradition of short, ugly, pedantic Unix commands.
+And most importantly, dogs like trees, and dagcomp is the inverse of dogcamp.)*
 
 ## Build
 
