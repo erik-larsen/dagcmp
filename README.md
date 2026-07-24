@@ -4,7 +4,7 @@
 
 
 Fast, open-source directory tree compare & sync — in the spirit of
-[TreeComp](https://lploeger.home.xs4all.nl/TreeComp.htm), at the speed of
+[TreeComp](https://lploeger.home.xs4all.nl/TreeComp.htm), with the speed of
 [WizTree](https://diskanalyzer.com/). On local NTFS volumes it reads the
 volume's Master File Table directly (user-mode, no kernel driver) instead of
 traversing directories, and falls back to a standard walk on network shares,
